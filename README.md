@@ -37,7 +37,7 @@ The rendered scene consists of:
 ## Rendered Output
 Below is an example output produced by the ray tracer:
 
-![Rendered Output](screenshots/rendered_output.png)
+![Rendered Output](final_ray_tracer.png)
 
 ---
 
