@@ -61,36 +61,3 @@ basic-ray-tracer/
 ```bash
 pip install -r requirements.txt
 python main.py
-
-
-The rendered image will be saved to:
-
-images/basic_ray_tracer.png
-
-Key Concepts Demonstrated
-
-Vector mathematics and normalization
-
-Ray-object intersection tests
-
-Surface shading models
-
-Camera and viewport projection
-
-Image synthesis from mathematical models
-
-Future Extensions
-
-Reflection and recursion
-
-Multiple light sources
-
-Soft shadows
-
-Refraction and transparency
-
-Acceleration structures (BVH)
-
-Notes
-
-This project avoids external rendering libraries to focus on understanding the core principles behind ray tracing and computer graphics.
