@@ -8,13 +8,13 @@ Ray tracing is a rendering technique that simulates the behavior of light by tra
 
 This implementation renders scenes composed of:
 
-Spherical objects
+- Spherical objects
 
-A ground plane
+- A ground plane
 
-Point light sources
+- Point light sources
 
-Recursive reflections and shadows
+- Recursive reflections and shadows
 
 ---
 
