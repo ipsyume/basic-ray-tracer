@@ -1,36 +1,48 @@
 # Basic Ray Tracer in Python
 
-This project implements a minimal ray tracer from scratch in Python to render simple 3D scenes using geometric ray-object intersections and lighting calculations. The goal is to demonstrate the fundamentals of computer graphics by converting mathematical concepts into a rendered image.
-
+This project implements a ray tracer from scratch in Python to render 3D scenes using analytical ray–object intersections and physically inspired lighting models. The primary goal is to translate core computer graphics theory—such as geometry, illumination, and reflection—into a functioning rendering pipeline.
 ---
 
 ## Overview
-Ray tracing is a rendering technique that simulates the physical behavior of light by tracing rays from a virtual camera into a scene. Each ray interacts with objects to determine color based on geometry, surface properties, and lighting.
+Ray tracing is a rendering technique that simulates the behavior of light by tracing rays from a virtual camera into a scene and evaluating their interactions with objects. Each ray contributes to the final pixel color based on surface geometry, material properties, lighting conditions, and recursive reflection.
 
-This implementation renders:
-- Spheres
-- A ground plane
-- Basic lighting and shading
-- Shadows and specular highlights
+This implementation renders scenes composed of:
+
+Spherical objects
+
+A ground plane
+
+Point light sources
+
+Recursive reflections and shadows
 
 ---
 
 ## Features
-- Ray–sphere intersection
-- Ray–plane intersection
-- Surface normals and reflection vectors
-- Ambient, diffuse, and specular lighting (Blinn-Phong model)
+- Ray–sphere and ray–plane intersection
+
+- Surface normal computation and reflection vectors
+
+- Ambient, diffuse, and specular shading using the Blinn–Phong model
+
 - Hard shadows using shadow rays
+
+- Recursive reflection for reflective surfaces
+
+- Supersampling-based anti-aliasing
+
 - Image generation using Python and Pillow
 
 ---
 
 ## Scene Description
-The rendered scene consists of:
-- Multiple colored spheres with different material properties
-- A ground plane
-- A single point light source
-- A fixed camera viewing the scene
+- Multiple colored spheres with varying material properties
+
+- A ground plane with optional checkerboard patterning
+
+- Multiple point light sources
+
+- A fixed pinhole camera model
 
 ---
 
@@ -41,8 +53,3 @@ Below is an example output produced by the ray tracer:
 
 
 ---
-
-## How to Run
-```bash
-pip install -r requirements.txt
-python main.py
