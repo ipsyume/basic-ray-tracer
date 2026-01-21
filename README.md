@@ -37,22 +37,7 @@ The rendered scene consists of:
 ## Rendered Output
 Below is an example output produced by the ray tracer:
 
-![Rendered Output](final_ray_tracer.png)
-
----
-
-## Project Structure
-basic-ray-tracer/
-│
-├── main.py
-├── README.md
-├── requirements.txt
-│
-├── images/
-│ └── basic_ray_tracer.png
-│
-└── screenshots/
-└── rendered_output.png
+![Rendered Output](final_ray_tracer.png) ![Rendered Output](neural_render.png)
 
 
 ---
